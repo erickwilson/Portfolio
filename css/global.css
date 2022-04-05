@@ -1,0 +1,42 @@
+body {
+    background-image: url("../images/fundo.jpg");
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 15px;
+    margin: 5% 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    align-content: center;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+}
+
+a {
+    align-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}

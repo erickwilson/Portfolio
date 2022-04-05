@@ -1,0 +1,53 @@
+.spanContato {
+    padding-top: 60px;
+}
+
+.footerContato {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 0px 5% 15vh 5%;
+}
+
+.pContato {
+    padding: 0 0 10px 0;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    align-items: center;
+}
+
+.grid-Contact {
+    text-align: center;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+.iconFooter {
+    padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+    .footerContato {
+        max-width: 1200px;
+        padding: 0px 5% 15vh 5%;
+        margin: auto;
+        font-size: 16px;
+    }
+    .pContato {
+        font-size: 16px;
+    }
+    .lblFooter {
+        font-size: 16px;
+        font-weight: 300;
+    }
+    .spanContato {
+        padding-top: 200px;
+    }
+    .iconFooter {
+        padding-right: 10px;
+    }
+}

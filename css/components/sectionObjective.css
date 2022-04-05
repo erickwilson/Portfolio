@@ -1,0 +1,79 @@
+.divObjective {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10vh 5% 10vh 5%
+}
+
+.divObjective p {
+    margin-bottom: 2.5rem;
+    max-width: 1000px;
+}
+
+.imgDeveloper {
+    display: flex;
+    height: auto;
+    width: 300px;
+    padding-bottom: 10px;
+    /* float: right; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.h3Erick {
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.btnDownload {
+    padding: 5px 25px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    margin: auto;
+    box-shadow: 0 0 3px #eee;
+    border-radius: 8px;
+    display: block;
+    background-image: linear-gradient(to right, #3c5f8a 0%, #509acf 51%, #3c5f8a 80%)
+}
+
+#lblFront {
+    padding-top: 25px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@media (min-width: 768px) {
+    .divObjective {
+        height: auto;
+        width: auto;
+        align-items: center;
+        text-align: -webkit-center;
+        padding: 20vh 5% 20vh 5%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .imgDeveloper {
+        display: flex;
+        height: auto;
+        width: 500px;
+        float: right;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #lblFront {
+        padding-top: 10%;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .p-objective {
+        font-size: 17px;
+    }
+}
